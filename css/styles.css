@@ -45907,7 +45907,7 @@ aside .menu .item .icon141 > * {
     justify-content: center;
     align-items: center;
     padding: 9px 12px;
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     text-decoration: none;
     font-family: 'Ubuntu';
@@ -49810,7 +49810,7 @@ aside .menu .item .icon141 > * {
     align-items: flex-start;
     padding: 9px 20px;
     gap: 10px;
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     text-decoration: none;
 }
@@ -49963,7 +49963,7 @@ aside .menu .item .icon141 > * {
     align-items: flex-start;
     padding: 9px 20px;
     gap: 10px;
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     text-decoration: none;
 }
@@ -50020,7 +50020,7 @@ aside .menu .item .icon141 > * {
     display: inline-block;
     padding: 9px 20px;
     gap: 10px;
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     text-decoration: none;
 }
@@ -50107,3 +50107,40 @@ aside .menu .item .icon141 > * {
     margin-bottom: 10px;
     display: block;
 }
+
+.well_item-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.well_item-link_text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #817FA8;
+    padding: 6px 12px;
+    background: #F3F2FC;
+    border-radius: 60px;  
+    width: 100%;
+}
+.well_item-link_btn {
+    padding: 8px 20px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 20px;
+    gap: 10px;
+    background: var(--main_color);
+    border-radius: 55px;
+    text-decoration: none;
+}
+
