@@ -572,5 +572,127 @@
     }
 
 
+    .job-description_box_title {
+        font-size: 21px;
+    }
+
+
+    .denied_title {
+        text-align: center;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .denied_desc {
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.4;
+        margin-bottom: 33px;
+    }
+    .denied_contact-title {
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .denied_contact-items {
+        justify-content: center;
+    }
+    .denied_info {
+        text-align: center;
+        width: 100%;
+    }
+    .denied .code {
+        margin: 0 auto;
+    }
+    .denied {
+        padding: 24px 52px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        flex: 0;
+    }
+    .denied_contact-phone,
+    .denied_contact-mail {
+        font-size: 22px;
+    }
+
+
+
+    .mentor_item-contacts {
+        flex-wrap: wrap;
+    }
+    .mentor_item-contacts > * {
+        width: calc(100%/2 - 15px);
+    }
+    .mentor_bottom {
+        flex-wrap: wrap;
+    }
+    .mentor_bottom > * {
+        width: 100%;
+    }
+
+    .trainer_ai_body {
+        flex-direction: column;
+    }
+
+    .trainer_ai_body_left{
+        width: 100%;
+    }
+
+    .trainer_ai_body_right {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+
+
+    .knowledge-catalog_items {
+        gap: 18px;
+    }
+    .test-folder_item-name {
+        display: inline-block;
+    }
+    .attestation-head_items > * {
+        width: calc(100% / 2 - 5px);
+    }
+
+
+    .proposal_box-title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+
+    .converse_items {
+        flex-wrap: nowrap;
+        overflow: auto;
+        scrollbar-width: none;
+    }
+    .converse_items > * {
+        width: 150px;
+        flex-shrink: 0;
+    }
+    .converse_item:after {
+        width: 96px;
+    }
+    .converse_items::-webkit-scrollbar { 
+        width: 0; 
+    }
+    .converse_items { 
+        -ms-overflow-style: none; 
+    }
+    .converse_items { 
+        overflow: -moz-scrollbars-none; 
+    }
+    .converse_item:nth-child(7):after {
+        display: block;
+    }
+
+
+
+    .sales_item-wrap > * {
+        width: calc(100% / 3 - 6px);
+    }
+
+
+
 
 }

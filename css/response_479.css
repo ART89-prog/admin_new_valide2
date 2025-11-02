@@ -866,7 +866,7 @@
     }
     
     .dialog .message .prompt .text-information {
-        width: 200px;
+        width: 100%;
         flex-shrink: 0;
     }
 
@@ -2247,10 +2247,141 @@
         gap:35px;
     }   
 
-    .improvement_head {
+
+    .job-description_items > * {
+        width: 100%;
+        padding: 16px;
+    }
+    .job-description_items {
+        padding: 15px;
+    }
+
+
+
+
+    .denied {
+        padding: 30px 20px;
+    }
+
+
+
+    .mentor_bottom-item {
         flex-direction: column;
         align-items: flex-start;
     }
+
+
+    .call-analysis_button {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+    }
+    .call-analysis_item-info {
+        width: 100%;
+    }
+    .call-analysis_item-desc {
+        max-width: 100%;
+    }
+    .call-analysis_item-text {
+        
+        text-align: center;
+    }
+
+    .coach_items > * {
+        padding: 30px 16px 16px 16px;
+    }
+    .attestation-active_item-labels {
+        gap: 10px;
+    }
+    .attestation-active_item-label {
+        display: inline-block;
+    }
+
+    .attestation-head_items > * {
+        width: 100%;
+    }
+    .attestation-active_btn {
+        padding: 6px 10px;
+    }
+
+    .sales_item-wrap > * {
+        width: 100%;
+    }
+    .sales_item {
+        padding: 16px;
+    }
+
+
+    .purpose_heead-btn {
+        width: 100%;
+    }
+
+
+    .proposal_box-title {
+        font-size: 16px;
+    }
+
+    .go_controls_button{
+        top:-60px;
+    }
+
+    .controls_button{
+        margin-bottom:60px;
+    }
+
+    .lider_info{
+        flex-wrap:wrap;
+        gap: 5px;
+    }
+
+    .lider{
+        align-items: flex-start;
+    }
+
+    .accordion_new_style{
+        .accordion_item .head .icon{
+            position: absolute;
+            top:17px;
+        }
+
+        .accordion_item.active .head .icon{
+            top:17px;
+        }
+    }   
+
+    .dialog .message .prompt .text{
+        flex-direction: column;
+    }
+    
+    .purpose_head .select-right{
+        width: 100%;
+    }
+
+    .purpose_head .select-right form{
+        width:100%;
+    }
+
+    .purpose_head .nice-select{
+        width: 100%;
+    }
+
+    .purpose_head .nice-select .list{
+        width: calc(100% - -1px);
+        left: -0.5px;
+    }
+
+    .text-page42_item-btn {
+        width: 100%;
+    }
+
+
+
+
 
 
 

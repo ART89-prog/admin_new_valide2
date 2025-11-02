@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<!-- Адаптирование страницы для мобильных устройств11 -->
+		<!-- Адаптирование страницы для мобильных устройств -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<!-- Запрет распознования номера телефона -->
@@ -27,8 +27,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 		<!-- Подключение файлов стилей -->
-		<link rel="stylesheet" href="css/nice-select.css">
 		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/circle.css" async>
 		<link rel="stylesheet" href="css/styles.css" async>
 
 		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
@@ -271,6 +271,15 @@
 
 								<div class="item">
 									<a href="/">
+										<div class="icon icon15">
+											<svg><use xlink:href="images/sprite.svg#ic_category15"></use></svg>
+										</div>
+										<span>Статистика</span>
+									</a>
+								</div>
+
+								<div class="item">
+									<a href="/">
 										<div class="icon icon13">
 											<svg><use xlink:href="images/sprite.svg#ic_category13"></use></svg>
 										</div>
@@ -291,115 +300,143 @@
 										<div><a href="/"></a></div>
 									</div>
 								</div>
+
+								<div class="item">
+									<a href="/">
+										<div class="icon icon13">
+											<svg><use xlink:href="images/sprite.svg#ic_category13"></use></svg>
+										</div>
+										<span>Я наставник</span>
+									</a>
+								</div>
 							</div>
 						</aside>
 
 
 						<section class="content">
-							
-							<section class="catalog">
-								<h1 class="page_title">Каталог профессий</h1>
-								<div class="page_text">Каталог обучаемых профессий АО «ВОЛТАЙР-ПРОМ». Нажмите на профессию, что бы узнать подробнее </div>
-							
-								<div class="catalog_box"> 
-									<div class="catalog_box_title">Каландровый цех</div>
-									<div class="catalog_items">
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog1.png" alt="">
+							<h1 class="page_title">Я наставник</h1>
+
+							<section class="mentor">
+								<div class="mentor_items">
+									<div class="mentor_item">
+										<div class="mentor_item-top">
+											<div class="mentor_item-author">
+												<div class="mentor_item-avatar">
+													<img src="images/mentor_avatar1.jpg" alt="">
 												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Балансировщик шин</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
+												<div class="mentor_item-info">
+													<div class="mentor_item-name">Регина Дмитриенко</div>
+													<div class="mentor_item-time">Заходил(а) 16 апреля в 15:45</div>
 												</div>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog2.png" alt="">
+											<div class="mentor_item-contacts">
+												<div class="mentor_item-contact">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#mentor1"></use>
+													</svg>
+													<span>1 января 2025</span>
+												</div>	
+												<a href="tel:79050987653" class="mentor_item-contact">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#mentor2"></use>
+													</svg>
+													<span>+7 (905) 098-76-53</span>
+												</a>
+												<a href="mailto:reginadmitienko@xskil.com" class="mentor_item-contact">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#mentor3"></use>
+													</svg>
+													<span>reginadmitienko@xskil.com</span>
+												</a>
+												<a href="#" class="mentor_item-contact">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#mentor4"></use>
+													</svg>
+													<span>dmitienko_regina</span>
+												</a>
+											</div>
+											
+										</div>
+
+										<div class="mentor_bottom">
+											<div class="mentor_bottom-item">
+												<div class="mentor_bottom-item_info">
+													<div class="mentor_bottom-item_title">Протокол обучения</div>
+													<div class="mentor_bottom-item_time">Последнее действие: 16 апреля в 9:45</div>
 												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
+												<a href="#" class="mentor_bottom-item_btn">Открыть</a>
+											</div>
+											<div class="mentor_bottom-item">
+												<div class="mentor_bottom-item_info">
+													<div class="mentor_bottom-item_title">Протокол ассистентов</div>
+													<div class="mentor_bottom-item_time">Последнее действие: 16 апреля в 9:45</div>
+												</div>
+												<a href="#" class="mentor_bottom-item_btn">Открыть</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="mentor_item">
+										<div class="mentor_item-top">
+											<div class="mentor_item-author">
+												<div class="mentor_item-avatar">
+													<img src="images/mentor_avatar2.jpg" alt="">
+												</div>
+												<div class="mentor_item-info">
+													<div class="mentor_item-name">Василий Петрович Иванов</div>
+													<div class="mentor_item-time">Заходил(а) 16 апреля в 15:45</div>
 												</div>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog3.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вулканизаторщик (покрышек/камер)</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+											<div class="mentor_item-contacts">
+												<div class="mentor_item-contact">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#mentor1"></use>
+													</svg>
+													<span>1 января 2025</span>
+												</div>	
+												<a href="tel:79050987653" class="mentor_item-contact">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#mentor2"></use>
+													</svg>
+													<span>+7 (905) 098-76-53</span>
+												</a>
+												<a href="mailto:reginadmitienko@xskil.com" class="mentor_item-contact">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#mentor3"></use>
+													</svg>
+													<span>reginadmitienko@xskil.com</span>
+												</a>
+												<a href="#" class="mentor_item-contact">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#mentor4"></use>
+													</svg>
+													<span>dmitienko_regina</span>
+												</a>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog4.png" alt="">
+											
+										</div>
+
+										<div class="mentor_bottom">
+											<div class="mentor_bottom-item">
+												<div class="mentor_bottom-item_info">
+													<div class="mentor_bottom-item_title">Протокол обучения</div>
+													<div class="mentor_bottom-item_time">Последнее действие: 16 апреля в 9:45</div>
 												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Грануляторщик</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+												<a href="#" class="mentor_bottom-item_btn">Открыть</a>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog5.png" alt="">
+											<div class="mentor_bottom-item">
+												<div class="mentor_bottom-item_info">
+													<div class="mentor_bottom-item_title">Протокол ассистентов</div>
+													<div class="mentor_bottom-item_time">Последнее действие: 16 апреля в 9:45</div>
 												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+												<a href="#" class="mentor_bottom-item_btn">Открыть</a>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
+										</div>
 									</div>
 								</div>
+							</section>
 
-								<div class="catalog_box"> 
-									<div class="catalog_box_title">Сборочный цех</div>
-									<div class="catalog_items">
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog1.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Балансировщик шин</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog2.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-									</div>
-								</div>
-								
-							</section>	
-
-
+							
 
 							<footer>
 								<div class="logo">
@@ -430,6 +467,7 @@
 									</div>
 								</div>
 							</footer>
+
 						</section>
 					</div>
 				</section>
@@ -437,19 +475,106 @@
 		</div>
 
 
+		<section class="modal" id="test">
+			<img data-src="images/ic_warning.svg" alt="" class="icon lozad">
 
-		<section class="modal modal-video" id="video_modal5" style="display: none;">
-			<video class="video-player video_new" controlslist="nodownload" controls="" crossorigin="anonymous">
+			<div class="modal_title">Аттестация по теме “Маркетинг в IT-Сфере”</div>
+
+			<div class="modal_desc">Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок. Теперь никто не сможет обвинить вас в плагиате, ибо каждый текст Яндекс.Рефератов неповторим.</div>
+
+			<div class="btns">
+				<button class="close_btn btn">Позже</button>
+
+				<a href="">Начать</a>
+			</div>
+		</section>
+
+
+		<section class="modal" id="video_modal">
+			<video class="video-player video_new" width="100%" controlsList="nodownload" controls crossorigin="anonymous">
 			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.mp4" type="video/mp4">
 			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.webm" type="video/webm">
-			    <track src="https://thepaciellogroup.github.io/AT-browser-tests/video/subtitles-en.vtt" label="English subtitles" kind="captions" srclang="en" default="">
+			    <track src="https://thepaciellogroup.github.io/AT-browser-tests/video/subtitles-en.vtt" label="English subtitles" kind="captions" srclang="en" default></track>
 			</video>
 		</section>
+
+
+
+		<section class="details-modal" id="callback_modal">
+			<div class="details-modal_title">Ответы других экспертов</div>
+			<div class="dialog_items">
+				<div class="dialog_item">
+					<div class="dialog_item-avatar">
+						<img src="images/avatar3.png " alt="">
+					</div>
+					<div class="dialog_item-info">
+						<div class="dialog_item-author">Мария Сергеева</div>
+						<div class="dialog_item-text">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит текст</div>
+					</div>
+				</div>
+				<div class="dialog_item">
+					<div class="dialog_item-avatar">
+						<img src="images/avatar3.png " alt="">
+					</div>
+					<div class="dialog_item-info">
+						<div class="dialog_item-author">Мария Сергеева</div>
+						<div class="dialog_item-text">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит текст</div>
+					</div>
+				</div>
+				<div class="dialog_item">
+					<div class="dialog_item-avatar">
+						<img src="images/avatar3.png " alt="">
+					</div>
+					<div class="dialog_item-info">
+						<div class="dialog_item-author">Мария Сергеева</div>
+						<div class="dialog_item-text">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит текст</div>
+					</div>
+				</div>
+				<div class="dialog_item">
+					<div class="dialog_item-avatar">
+						<img src="images/avatar3.png " alt="">
+					</div>
+					<div class="dialog_item-info">
+						<div class="dialog_item-author">Мария Сергеева</div>
+						<div class="dialog_item-text">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит текст</div>
+					</div>
+				</div>	
+			</div>			
+		</section>
+
+		<section class="details-modal" id="answer">
+			<div class="details-modal_title">Правильный ответ</div>
+			<div class="dialog_items">
+				<div class="dialog_item">
+					<div class="dialog_item-info">
+						<div class="dialog_item-author">Мария Сергеева</div>
+						<div class="dialog_item-text">Нажав на кнопку «Написать реферат», вы лично создаете уникальный текст, причем именно от вашего нажатия на кнопку зависит текст</div>
+					</div>
+				</div>
+			</div>			
+		</section>
+
+
+
+
 
 		<div class="supports_error">
 			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
 		</div>
-
+		<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		    <defs>
+		        <symbol id="ii" viewBox="0 0 80 80">
+		        	<rect width="100%" height="100%" rx="21" fill="url(#paint0_linear_3687_2535)"/>
+					<path d="M47.5 57C46.849 57 46.271 56.579 46.072 55.959L43.145 46.855L34.041 43.928C33.421 43.729 33 43.151 33 42.5C33 41.849 33.421 41.271 34.041 41.072L43.145 38.145L46.072 29.041C46.271 28.421 46.849 28 47.5 28C48.151 28 48.729 28.421 48.928 29.041L51.855 38.145L60.959 41.072C61.579 41.271 62 41.849 62 42.5C62 43.151 61.579 43.729 60.959 43.928L51.855 46.855L48.928 55.959C48.729 56.579 48.151 57 47.5 57ZM28 39C27.354 39 26.781 38.587 26.577 37.975L24.689 32.311L19.025 30.423C18.413 30.219 18 29.646 18 29C18 28.354 18.413 27.781 19.025 27.577L24.689 25.689L26.577 20.025C26.781 19.413 27.354 19 28 19C28.646 19 29.219 19.413 29.423 20.025L31.311 25.689L36.975 27.577C37.587 27.781 38 28.354 38 29C38 29.646 37.587 30.219 36.975 30.423L31.311 32.311L29.423 37.975C29.219 38.587 28.646 39 28 39ZM26.5 61C25.854 61 25.281 60.587 25.077 59.975L23.563 55.436L19.025 53.923C18.413 53.719 18 53.146 18 52.5C18 51.854 18.413 51.281 19.025 51.077L23.563 49.564L25.077 45.025C25.281 44.413 25.854 44 26.5 44C27.146 44 27.719 44.413 27.923 45.025L29.436 49.564L33.975 51.077C34.587 51.281 35 51.854 35 52.5C35 53.146 34.587 53.719 33.975 53.923L29.436 55.436L27.923 59.975C27.719 60.587 27.146 61 26.5 61Z" fill="white"/>
+					<defs>
+					<linearGradient id="paint0_linear_3687_2535" x1="-1.7678e-06" y1="85.0202" x2="104.684" y2="42.3877" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#682D8C"/>
+					<stop offset="1" stop-color="#EB1E79"/>
+					</linearGradient>
+					</defs>
+		        </symbol>
+		    </defs>
+		</svg>
 
 		<!-- Подключение javascript файлов -->
 		<script src="js/jquery-3.5.0.min.js"></script>
@@ -461,6 +586,5 @@
 		<script src="js/nice-select.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
-		<script src="js/search_courses.js"></script>
 	</body>
 </html>

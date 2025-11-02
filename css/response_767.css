@@ -2356,9 +2356,7 @@
     .rating-top_items {
         flex-direction: column;
         align-items: flex-start;
-    }
-    .rating-top_item:first-child {
-        margin-bottom: 7px;
+        gap:7px;
     }
     .rating-top {
         align-items: flex-start;
@@ -2704,7 +2702,7 @@
         display: none;
     }
     .training-plan_item:nth-child(4):before {
-        display: block;
+        /*display: block;*/
     }
 
 
@@ -3660,8 +3658,213 @@
     }
 
 
-    .improvement_files {
-        padding: 12px 14px;
+    .job-description_items > * {
+        width: calc(100% / 2 - 12px);
     }
+    .job-description_box_title {
+        font-size: 19px;
+    }
+    .denied .code svg {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+
+
+    .mentor_item-contacts > * {
+        width: 100%;
+    }
+    .mentor_item {
+        padding: 14px;
+    }
+    .mentor_item-top:before {
+        width: calc(100% + 28px);
+        left: -14px;
+    }
+
+
+
+    .your-mentor {
+        padding: 14px;
+    }
+    .your-mentor_contacts {
+        flex-direction: column;
+        gap: 6px;
+    }
+    .your-mentor_label {
+        top: -10px;
+        right: 10px;
+    }
+    .your-mentor_author {
+        width: 100%;
+        align-items: flex-start;
+    }
+    .your-mentor_contact {
+        font-size: 15px;
+    }
+    .your-mentor_name {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .learning-paths .training-plan_item:last-child:nth-child(odd) {
+        width: 100%;
+    }
+    .learning-paths .training-plan_item:last-child:nth-child(even){
+        width: 100%;
+    }
+
+
+    .passing_items.two .passing_item {
+        width: 100%;
+    }
+    .call-analysis_item-top {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .knowledge-catalog_items> * {
+        width: 100%;
+    }
+    .test-folder_items > * {
+        width: 100%;
+    }
+
+    .job-head_items {
+        gap: 12px;
+    }
+    .job-head_items > * {
+        width: 100%;
+    }
+    .schedule_head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .schedule_items > * {
+        width: 100%;
+    }
+
+    .coach-head_contact {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .coach_items > * {
+        width: 100%;
+    }
+    .coach_item-status {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .attestation-active_item-btns {
+        margin-top: 12px;
+        justify-content: flex-start;
+    }
+
+    .attestation-active_title {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .knowledge_items > * {
+        width: 100%;
+    }
+    .knowledge_wrap-top {
+        flex-direction: column;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+    .knowledge_wrap {
+        padding: 12px;
+    }
+    .proposal_box-title {
+        font-size: 18px;
+    }
+    .knowledge-base_box_title {
+        font-size: 20px;
+    }
+    .proposal_accordion .accordion_item {
+        padding: 12px;
+    }
+    .proposal_right {
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    }
+    .supervisor-panel_top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .proposal_info-items > * {
+        width: 100%;
+    }
+    .proposal_btns {
+        flex-direction: column;
+    }
+    .supervisor-panel_btn {
+        width: 100%;
+    }
+
+
+
+    .converse .tabs_container .tabs {
+        flex-direction: row;
+        display: flex;
+    }
+
+
+    .purpose_head-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .purpose_head-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .sales_item-wrap > * {
+        width: calc(100% / 2 - 4px);
+    }
+
+
+    .text-page42_item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
+    .text-page43_wrap,
+    .text-page44_wrap,
+    .text-page45_wrap,
+    .text-page46_wrap,
+    .text-page47_wrap,
+    .text-page48_wrap,
+    .text-page49_wrap,
+    .text-page50_wrap {
+        flex-direction: column;
+    }
+    .text-page43_img,
+    .text-page44_img,
+    .text-page45_img,
+    .text-page46_img,
+    .text-page47_img,
+    .text-page48_img,
+    .text-page49_img,
+    .text-page50_img {
+        width: 100%;
+        height: auto;
+    }
+    .text-page47_items > * {
+        width: 100%;
+    }
+    .text-page45_items > * {
+        width: 100%;
+    }
+ 
+
 
 }

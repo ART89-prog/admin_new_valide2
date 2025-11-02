@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<!-- Адаптирование страницы для мобильных устройств11 -->
+		<!-- Адаптирование страницы для мобильных устройств -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<!-- Запрет распознования номера телефона -->
@@ -52,7 +52,9 @@
 							<span>1243</span>
 						</div>
 
-						<div class="sep"></div>
+						<div class="nitifications new">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_nitifications"></use></svg>
+						</div>
 
 						<div class="account">
 							<a href="/" class="settings_link">
@@ -82,7 +84,7 @@
 							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
 						</button>
 
-						<div class="page_title">Сводка</div>
+						<div class="page_title">Файлы</div>
 
 						<div class="wallet">
 							<svg class="icon"><use xlink:href="images/sprite.svg#ic_wallet"></use></svg>
@@ -296,109 +298,139 @@
 
 
 						<section class="content">
-							
-							<section class="catalog">
-								<h1 class="page_title">Каталог профессий</h1>
-								<div class="page_text">Каталог обучаемых профессий АО «ВОЛТАЙР-ПРОМ». Нажмите на профессию, что бы узнать подробнее </div>
-							
-								<div class="catalog_box"> 
-									<div class="catalog_box_title">Каландровый цех</div>
-									<div class="catalog_items">
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog1.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Балансировщик шин</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+							<div class="page_title">Мои задания</div>
+
+							<section class="job">
+
+								<div class="job-head">
+									<div class="job-head_items">
+										<div class="job-head_item red">
+											<div class="job-head_item-icon">
+												<svg>
+													<use xlink:href="images/sprite.svg#job1"></use>
+												</svg>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog2.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+											<div class="job-head_item-info">
+												<div class="job-head_item-title">Получено задач</div>
+												<div class="job-head_item-text">15</div>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog3.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вулканизаторщик (покрышек/камер)</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+										</div>
+										<div class="job-head_item blau">
+											<div class="job-head_item-icon">
+												<svg>
+													<use xlink:href="images/sprite.svg#job2"></use>
+												</svg>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog4.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Грануляторщик</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+											<div class="job-head_item-info">
+												<div class="job-head_item-title">Нужно сделать</div>
+												<div class="job-head_item-text">3</div>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog5.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+										</div>
+										<div class="job-head_item green">
+											<div class="job-head_item-icon">
+												<svg>
+													<use xlink:href="images/sprite.svg#job3"></use>
+												</svg>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
+											<div class="job-head_item-info">
+												<div class="job-head_item-title">Выполнено в срок</div>
+												<div class="job-head_item-text">179</div>
+											</div>
+										</div>
+									</div>									
+								</div>
+							</section>
+
+
+							<section class="schedule">
+								<div class="schedule_head">
+									<div class="schedule_title">Нужно сдедать в декабре 2024</div>
+									<div class="select-right">
+										<span>Сортировать:</span>
+										<select>
+											<option>По дате выполнения</option>
+											<option>По дате выполнения</option>
+											<option>По дате выполнения</option>
+											<option>По дате выполнения</option>
+										</select>	
 									</div>
 								</div>
-
-								<div class="catalog_box"> 
-									<div class="catalog_box_title">Сборочный цех</div>
-									<div class="catalog_items">
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog1.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Балансировщик шин</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+								<div class="schedule_items">
+									<div class="schedule_item">
+										<div class="schedule_item-info">
+											<div class="schedule_item-labels">
+												<div class="schedule_item-label blau">Пройти тренажер</div>
+												<div class="schedule_item-date">до 01.06.2025 </div>
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog2.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
+											<div class="schedule_item-title">Холодный звонок недовольному клиенту</div>
+											<div class="schedule_item-text">В прошлый раз вы не выдержали грубости клиента. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе</div>
+											<a href="#" class="schedule_item-btn">Подробнее</a>
+										</div>
+										<div class="schedule_item-bottom">
+											<div class="schedule_item-bottom_img">
+												<img src="images/ai222.png" alt="">
 											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
+											<div class="schedule_item-bottom_title">Искусственный Интеллект</div>
+										</div>
+									</div>
+									<div class="schedule_item">
+										<div class="schedule_item-info">
+											<div class="schedule_item-labels">
+												<div class="schedule_item-label blau">Пройти курс</div>
+											</div>
+											<div class="schedule_item-title">Теплые звонки</div>
+											<div class="schedule_item-text">Пройдите этот тренажер, что бы избежать таких ситуаций</div>
+											<a href="#" class="schedule_item-btn">Подробнее</a>
+										</div>
+										<div class="schedule_item-bottom">
+											<div class="schedule_item-bottom_img">
+												<img src="images/ai222.png" alt="">
+											</div>
+											<div class="schedule_item-bottom_title">Искусственный Интеллект</div>
+										</div>
+									</div>
+									<div class="schedule_item">
+										<div class="schedule_item-info">
+											<div class="schedule_item-labels">
+												<div class="schedule_item-label blau">Пройти курс</div>
+												<div class="schedule_item-status"><img src="images/cancel.svg" alt=""><span>Просрочено</span></div>
+											</div>
+											<div class="schedule_item-title">Прочитать раздел “Изготовление покрышек”</div>
+											<div class="schedule_item-text">Ознакомьтесь с разделом</div>
+											<a href="#" class="schedule_item-btn">Подробнее</a>
+										</div>
+										<div class="schedule_item-bottom">
+											<div class="schedule_item-bottom_img">
+												<img src="images/user222.png" alt="">
+											</div>
+											<div class="schedule_item-bottom_title">Василий Дмитриенко</div>
+										</div>
 									</div>
 								</div>
-								
-							</section>	
+							</section>
 
+
+							<section class="executed-task">
+								<div class="executed-task_title">Выполненные задания за декабрь 2024</div>
+								<div class="executed-task_items">
+									<div class="executed-task_item">
+										<div class="executed-task_item-labels">
+											<div class="executed-task_item-label">Пройти тренажер</div>
+											<div class="executed-task_item-status"><img src="images/ok222.svg" alt=""><span>Выполнено 01.06.2025</span></div>
+										</div>
+										<div class="executed-task_item-title">Холодный звонок недовольному клиенту</div>
+									</div>
+									<div class="executed-task_item">
+										<div class="executed-task_item-labels">
+											<div class="executed-task_item-label">Пройти тренажер</div>
+											<div class="executed-task_item-status"><img src="images/ok222.svg" alt=""><span>Выполнено 01.06.2025</span></div>
+										</div>
+										<div class="executed-task_item-title">Прочитать раздел “Изготовление покрышек”довольному клиенту</div>
+									</div>
+								</div>
+							</section>
+
+							
 
 
 							<footer>
@@ -437,15 +469,6 @@
 		</div>
 
 
-
-		<section class="modal modal-video" id="video_modal5" style="display: none;">
-			<video class="video-player video_new" controlslist="nodownload" controls="" crossorigin="anonymous">
-			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.mp4" type="video/mp4">
-			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.webm" type="video/webm">
-			    <track src="https://thepaciellogroup.github.io/AT-browser-tests/video/subtitles-en.vtt" label="English subtitles" kind="captions" srclang="en" default="">
-			</video>
-		</section>
-
 		<div class="supports_error">
 			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
 		</div>
@@ -461,6 +484,5 @@
 		<script src="js/nice-select.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
-		<script src="js/search_courses.js"></script>
 	</body>
 </html>

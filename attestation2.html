@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<!-- Адаптирование страницы для мобильных устройств11 -->
+		<!-- Адаптирование страницы для мобильных устройств -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<!-- Запрет распознования номера телефона -->
@@ -52,7 +52,9 @@
 							<span>1243</span>
 						</div>
 
-						<div class="sep"></div>
+						<div class="nitifications new">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_nitifications"></use></svg>
+						</div>
 
 						<div class="account">
 							<a href="/" class="settings_link">
@@ -82,7 +84,7 @@
 							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
 						</button>
 
-						<div class="page_title">Сводка</div>
+						<div class="page_title">Файлы</div>
 
 						<div class="wallet">
 							<svg class="icon"><use xlink:href="images/sprite.svg#ic_wallet"></use></svg>
@@ -297,108 +299,158 @@
 
 						<section class="content">
 							
-							<section class="catalog">
-								<h1 class="page_title">Каталог профессий</h1>
-								<div class="page_text">Каталог обучаемых профессий АО «ВОЛТАЙР-ПРОМ». Нажмите на профессию, что бы узнать подробнее </div>
+							<div class="page_title">Аттестации</div>	
+												
+
+							<div class="attestation-head">
+								<div class="attestation-head_items">
+									<div class="attestation-head_item blau">
+										<div class="attestation-head_item-icon">
+											<svg>
+												<use xlink:href="images/sprite.svg#attestation1"></use>
+											</svg>
+										</div>
+										<div class="attestation-head_item-info">
+											<div class="attestation-head_item-title">Активные</div>
+											<div class="attestation-head_item-text">3</div>
+										</div>
+									</div>
+									<div class="attestation-head_item green">
+										<div class="attestation-head_item-icon">
+											<svg>
+												<use xlink:href="images/sprite.svg#attestation2"></use>
+											</svg>
+										</div>
+										<div class="attestation-head_item-info">
+											<div class="attestation-head_item-title">Завершенные</div>
+											<div class="attestation-head_item-text">5</div>
+										</div>
+									</div>
+									<div class="attestation-head_item violet">
+										<div class="attestation-head_item-icon">
+											<svg>
+												<use xlink:href="images/sprite.svg#attestation3"></use>
+											</svg>
+										</div>
+										<div class="attestation-head_item-info">
+											<div class="attestation-head_item-title">Средний результат</div>
+											<div class="attestation-head_item-text">67%</div>
+										</div>
+									</div>
+									<div class="attestation-head_item red">
+										<div class="attestation-head_item-icon">
+											<svg>
+												<use xlink:href="images/sprite.svg#attestation4"></use>
+											</svg>
+										</div>
+										<div class="attestation-head_item-info">
+											<div class="attestation-head_item-title">До дедлайна</div>
+											<div class="attestation-head_item-text">5 дней</div>
+										</div>
+									</div>
+								</div>									
+							</div>
+
+							<div class="attestation-active">
+								<div class="attestation-active_title">
+									<span>Активные</span>
+									<div class="attestation-active_btns">
+										<a href="#" class="active attestation-active_btn">Все</a>
+										<a href="#" class="attestation-active_btn">Срочные</a>
+										<a href="#" class="attestation-active_btn">В процессе</a>
+									</div>
+
+								</div>
+								<div class="attestation-active_items">
+									<div class="attestation-active_item green">
+										<div class="attestation-active_item-labels">
+											<div class="attestation-active_item-label blau">Нужно пройти</div>
+											<div class="attestation-active_item-label red">Осталось мало времени!</div>
+										</div>
+										<div class="attestation-active_item-title">Аттестация по холодным звонкам</div>
+										<div class="attestation-active_item-subtitle">Проходит с <span>27.03.2025</span> по <span>01.04.2025</span></div>
+										<div class="attestation-active_item-text">В прошлый раз вы не выдержали грубости клиента. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе</div>
+										<div class="bar">
+											<div class="progress-line" >
+												<span style="width: 80%;"></span>
+											</div>
+											<div class="info">
+												<span data-procent="80%"></span>
+												<div class="bar_title green">Отвечено на 40 из 50 вопросов</div>													
+											</div>												
+										</div>
+										<div class="attestation-active_item-btns two">
+											<a href="#" class="attestation-active_item-btn">Статистика</a>
+											<a href="#" class="attestation-active_item-btn disabled">Открыть тесты</a>
+										</div>
+									</div>
+
+									<div class="attestation-active_item yellow">
+										<div class="attestation-active_item-labels">
+											<div class="attestation-active_item-label blau">Нужно пройти</div>
+										</div>
+										<div class="attestation-active_item-title">Аттестация по холодным звонкам</div>
+										<div class="attestation-active_item-subtitle">Проходит с <span>27.03.2025</span> по <span>01.04.2025</span></div>
+										<div class="attestation-active_item-text">В прошлый раз вы не выдержали грубости клиента. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе</div>
+										<div class="bar">
+											<div class="progress-line" >
+												<span style="width: 80%;"></span>
+											</div>
+											<div class="info">
+												<span data-procent="80%"></span>
+												<div class="bar_title yellow">Отвечено на 40 из 50 вопросов</div>													
+											</div>												
+										</div>
+										<div class="attestation-active_item-btns">
+											<a href="#" class="attestation-active_item-btn">Статистика</a>
+											<a href="#" class="attestation-active_item-btn">Открыть тесты</a>
+										</div>
+									</div>
+
+									<div class="attestation-active_item red">
+										<div class="attestation-active_item-labels">
+											<div class="attestation-active_item-label blau">Нужно пройти</div>
+										</div>
+										<div class="attestation-active_item-title">Аттестация по холодным звонкам</div>
+										<div class="attestation-active_item-subtitle">Проходит с <span>27.03.2025</span> по <span>01.04.2025</span></div>
+										<div class="attestation-active_item-text">В прошлый раз вы не выдержали грубости клиента. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе</div>
+										<div class="bar">
+											<div class="progress-line" >
+												<span style="width: 60%;"></span>
+											</div>
+											<div class="info">
+												<span data-procent="60%"></span>
+												<div class="bar_title red">Отвечено на 30 из 50 вопросов</div>													
+											</div>												
+										</div>
+										<div class="attestation-active_item-btns">
+											<a href="#" class="attestation-active_item-btn">Статистика</a>
+											<a href="#" class="attestation-active_item-btn">Открыть тесты</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="attestation-archival">
+								<div class="attestation-archival_title">Архивные аттестации</div>
+								<div class="attestation-archival_items">
+									<div class="attestation-archival_item disabled">
+										<div class="attestation-archival_item-label green">Закончена</div>
+										<div class="attestation-archival_item-title">Аттестация по холодным звонкам</div>
+										<div class="attestation-archival_item-text">В прошлый раз вы не выдержали грубости клиента. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе</div>
+										<a href="#" class="attestation-archival_item-btn">Открыть</a>
+									</div>
+
+									<div class="attestation-archival_item disabled">
+										<div class="attestation-archival_item-label red">Отменена</div>
+										<div class="attestation-archival_item-title">Аттестация по холодным звонкам</div>
+										<div class="attestation-archival_item-text">В прошлый раз вы не выдержали грубости клиента. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе. Пройдите этот тренажер, что бы избежать таких ситуаций в дальнейшей работе</div>
+										<a href="#" class="attestation-archival_item-btn">Открыть</a>
+									</div>
+								</div>
+							</div>
+
 							
-								<div class="catalog_box"> 
-									<div class="catalog_box_title">Каландровый цех</div>
-									<div class="catalog_items">
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog1.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Балансировщик шин</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog2.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog3.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вулканизаторщик (покрышек/камер)</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog4.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Грануляторщик</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog5.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-									</div>
-								</div>
-
-								<div class="catalog_box"> 
-									<div class="catalog_box_title">Сборочный цех</div>
-									<div class="catalog_items">
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog1.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Балансировщик шин</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-										<a href="catalog-page.html" class="catalog_item">
-											<div class="catalog_item-top">
-												<div class="catalog_item-img">
-													<img src="images/catalog2.png" alt="">
-												</div>
-												<div class="catalog_item-info">
-													<div class="catalog_item-title">Вальцовщик резиновых смесей</div>
-													<div class="catalog_item-text">Сборка покрышек на сборочном станке</div>
-												</div>
-											</div>
-											<div class="catalog_item-bottom">от 25 000 ₽ до 120 000 ₽</div>
-										</a>
-									</div>
-								</div>
-								
-							</section>	
-
 
 
 							<footer>
@@ -437,15 +489,6 @@
 		</div>
 
 
-
-		<section class="modal modal-video" id="video_modal5" style="display: none;">
-			<video class="video-player video_new" controlslist="nodownload" controls="" crossorigin="anonymous">
-			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.mp4" type="video/mp4">
-			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.webm" type="video/webm">
-			    <track src="https://thepaciellogroup.github.io/AT-browser-tests/video/subtitles-en.vtt" label="English subtitles" kind="captions" srclang="en" default="">
-			</video>
-		</section>
-
 		<div class="supports_error">
 			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
 		</div>
@@ -461,6 +504,5 @@
 		<script src="js/nice-select.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
-		<script src="js/search_courses.js"></script>
 	</body>
 </html>
