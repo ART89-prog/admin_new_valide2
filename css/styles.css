@@ -50689,6 +50689,8 @@ aside .menu .item .icon141 > * {
 }
 .case_top { 
     position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .case_top:before {
     position: absolute;
@@ -50698,6 +50700,9 @@ aside .menu .item .icon141 > * {
     left: -22px;
     bottom: 0;
     background: #D8D8D8;
+}
+.case_top-info {
+    width: calc(100% - 250px);
 }
 .case_top-title {
     font-family: 'Ubuntu';
@@ -50755,11 +50760,16 @@ aside .menu .item .icon141 > * {
     color: #2B99F3; 
     text-decoration-style: dashed;
 }
-.conflict_item-top_label {
+.case_bottom p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #585683;
 }
-.yellow {
+.case_bottom p + p {
+    margin-top: 30px;
 }
-.case_bottom {
-}
-.italic {
+.case_bottom p.italic {
+    font-style: italic;
 }
