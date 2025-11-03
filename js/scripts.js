@@ -64,6 +64,15 @@ $(() => {
 	//
 
 
+	$(".case_btn").click(function (e) {
+		e.preventDefault();
+		$(".change-status").addClass("active");
+	});
+
+	$(".close-button").click(function (e) {
+		$(".change-status").removeClass("active");
+	});
+
 	$(".js-trainer_ai_button-record").click(function (e) {
 		$(this).toggleClass("active");
 		$(".trainer_ai_record").toggleClass("hide");
