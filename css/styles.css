@@ -34360,9 +34360,6 @@ bottom: 20px;
     display: none;
 }
 
-.adding-question_file + label{
-
-}
 
 .adding-question_file + label:before, .adding-question_file + label:after{
     display: none;
@@ -37824,8 +37821,7 @@ bottom: 20px;
 .knowledge-base .page_title {
     margin-bottom: 30px;
 }
-.knowledge-base_box {
-}
+
 .knowledge-base_box_title {
     font-family: 'Ubuntu';
     font-weight: 700;
@@ -49797,23 +49793,6 @@ aside .menu .item .icon141 > * {
     line-height: 1.2;
     color: #585683;
 }
-.company_item-btn {
-    padding: 8px 20px;
-    font-family: 'Ubuntu';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 9px 20px;
-    gap: 10px;
-    background: var(--main_color);
-    border-radius: 55px;
-    text-decoration: none;
-}
 .company_item-bottom {
     padding-top: 22px;
     margin-top: 22px;
@@ -49950,23 +49929,6 @@ aside .menu .item .icon141 > * {
 .departament_item-text + .departament_item-text {
     margin-top: 20px;
 }
-.departament_item-btn {
-    padding: 8px 20px;
-    font-family: 'Ubuntu';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 9px 20px;
-    gap: 10px;
-    background: var(--main_color);
-    border-radius: 55px;
-    text-decoration: none;
-}
 .departament .company_item-bottom_item {
     background: #fff;
 }
@@ -50009,7 +49971,7 @@ aside .menu .item .icon141 > * {
     color: #585683;
     margin-bottom: 20px;
 }
-.company_wrap-btn {
+.btn2 {
     padding: 8px 20px;
     font-family: 'Ubuntu';
     font-weight: 500;
@@ -50126,23 +50088,6 @@ aside .menu .item .icon141 > * {
     border-radius: 60px;  
     width: 100%;
 }
-.well_item-link_btn {
-    padding: 8px 20px;
-    font-family: 'Ubuntu';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 9px 20px;
-    gap: 10px;
-    background: var(--main_color);
-    border-radius: 55px;
-    text-decoration: none;
-}
 .well_item-img {
     margin-top: 15px;
     width: 174px;
@@ -50223,22 +50168,12 @@ aside .menu .item .icon141 > * {
     display: flex;
     gap: 42px;
 }
-.member_item-btn {
-    padding: 8px 20px;
-    font-family: 'Ubuntu';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 9px 20px;
-    gap: 10px;
-    background: #0601B7;
-    border-radius: 55px;
-    text-decoration: none;    
+.member_item-btn,
+.member_btn {
+    margin-top: 20px;
+}
+.member_item.hide {
+    display: none;
 }
 
 
