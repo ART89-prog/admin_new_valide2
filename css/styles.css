@@ -51263,3 +51263,162 @@ aside .menu .item .icon141 > * {
     margin-top: 28px;
 }
 
+
+
+
+.audio-response_top {
+    padding-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.audio-response_top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 44px);
+    height: 1px;
+    left: -22px;
+    bottom: 0;
+    background: #D8D8D8;
+}
+.audio-response_label {
+    padding: 3px 6px;
+    background: #EA2F17;
+    border-radius: 59px;
+    background: #EA2F17;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.audio-response_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    color: #1D1D1D;
+}
+.audio-response_author {
+    display: flex;    
+    gap: 12px;
+    margin-top: 22px;
+    padding-bottom: 25px;
+    position: relative;
+}
+.audio-response_author:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 44px);
+    height: 1px;
+    left: -22px;
+    bottom: 0;
+    background: #D8D8D8;
+}
+.audio-response_author-avatar {
+    width: 43px;
+    height: 43px;
+}
+.audio-response_author-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.audio-response_author-name {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #1D1D1D;
+    margin-bottom: 4px;
+}
+.audio-response_author-post {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #585683;
+}
+.audio-response_bottom {
+    margin-top: 22px;
+}
+.audio-response_bottom-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #1D1D1D;
+    margin-bottom: 15px;
+}
+.accordion {
+}
+.accordion_sort {
+}
+.accordion_new_style {
+}
+.accordion_item {
+}
+.head {
+}
+.title {
+}
+.icon {
+}
+.data {
+}
+.text_block {
+}
+.text_block_wrap {
+}
+.fast_link {
+}
+.faq_search {
+}
+
+.audio-response_bottom .accordion_item .head .title {
+    padding-left: 0px;
+}
+.audio-response_bottom .accordion_item {
+    background: #F3F3FF;
+    border-radius: 14px;
+}
+.audio-response_bottom .accordion_item .head .icon {
+    padding: 8px;
+    width: 17px;
+    height: 17px;
+    background: #9B98C8;
+    border-radius: 80px;
+    transform: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 0;
+}
+.audio-response_bottom .accordion_item .head .icon span {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    position: relative;
+    top: 0px;
+    transition: 0.3s;
+}
+.audio-response_bottom .accordion_item .head {
+    padding: 15px;
+    border: none;
+}
+.audio-response_bottom .accordion_item .data .text_block {
+    padding: 0 15px 15px;
+}
+.audio-response_bottom .accordion_item.active .head .icon span {
+    top: 1px;
+}
+
