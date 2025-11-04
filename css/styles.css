@@ -51422,3 +51422,32 @@ aside .menu .item .icon141 > * {
     top: 1px;
 }
 
+
+.audio-response_modal {
+    max-width: 740px;
+    width: 100%;
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+}
+.audio-response_modal-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    color: #1D1D1D;
+    margin-bottom: 20px;
+}
+.audio-response_modal-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #585683;
+}
+.audio-response_modal-text p + p {
+    margin-top: 20px;
+}
+p.italic {
+    font-style: italic;
+}
