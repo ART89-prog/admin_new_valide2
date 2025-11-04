@@ -50183,6 +50183,13 @@ aside .menu .item .icon141 > * {
     border: 1px solid #FFFFFF;
     border-radius: 14px;
 }
+.conflict_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #585683;
+}
 .conflict_item + .conflict_item {
     margin-top: 20px;
 }
@@ -50221,6 +50228,9 @@ aside .menu .item .icon141 > * {
     font-size: 16px;
     line-height: 23px;
     color: #585683;
+}
+.conflict_item-top_time + .conflict_item-top_time {
+    margin-top: 8px;
 }
 .conflict_item-top_label {
     font-family: 'Ubuntu';
