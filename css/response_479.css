@@ -2383,6 +2383,28 @@
 
 
 
+    .company_item-btn {
+        width: 100%;
+    }
+    .departament_item-btn {
+        width: 100%;
+    }
+    .company_item-left {
+        flex-direction: column;
+    }
+    .company_item-logo {
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;
+    }
+    .company_wrap-btn {
+        width: 100%;
+    }
+
+
+
+
+
 
 
 }

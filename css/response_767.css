@@ -3864,6 +3864,50 @@
     .text-page45_items > * {
         width: 100%;
     }
+
+
+
+
+
+
+    .company_item-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .company_item-bottom > * {
+        width: 100%;
+    }
+    .departament_item-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .conflict_item-bottom_items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .conflict_item-top {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .conflict_item-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .upshot_box-bottom_item {
+        font-size: 14px;
+    }
+    .discourse_item.one {
+        width: 90%;
+    }
+    .discourse_item.two {
+        width: 90%;
+    }
+
+
+
+
+
+
  
 
 
