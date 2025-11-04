@@ -2967,6 +2967,12 @@
     margin-bottom: 30px; 
 }
 
+.well_item-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
 
 
 
