@@ -3086,3 +3086,11 @@
 .well_item-text p + p {
     margin-top: 20px;
 }
+
+.comment_date {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #7874A3;   
+}
