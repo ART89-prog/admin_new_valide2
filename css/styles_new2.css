@@ -2922,6 +2922,108 @@
 
 
 
+.contained_item {
+    padding: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+.contained_item-top {
+    position: relative;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contained_item + .contained_item {
+    margin-top: 20px;
+}
+.contained_item-top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 44px);
+    height: 1px;
+    left: -22px;
+    bottom: 0;
+    background: #E4E4E4;
+}
+.contained_item-left {
+    display: flex;
+    gap: 16px;
+}
+.contained_item-top .icon {
+    width: 45px;
+    height: 45px;
+    background: var(--color_light);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 7px;
+}
+.contained_item-label {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 5px;
+}
+.contained_item-label.green {
+    background: #49AA1C;
+}
+.contained_item-label.blau {
+    background: #4FBEE6;
+}
+.contained_item-label.red {
+    background: #E93A52;
+}
+.contained_item-label.violet {
+    background: #814FE6;
+}
+.contained_item-label.orange {
+    background: #E49B0E;
+}
+.contained_item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+}
+.contained_item-bottom {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 16px;
+}
+.contained_item-bottom_text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #7874A3;
+}
+.contained_item-bottom_text b {
+    color: #000;
+}
+.contained_item-bottom .icon {
+    width: 19px;
+    height: 19px;
+}
+.contained_item-text {
+    margin-top: 5px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #817FA8;
+}
 
 
 

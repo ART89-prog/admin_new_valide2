@@ -51512,3 +51512,7 @@ p.italic {
     justify-content: space-between;
     gap: 20px;
 }
+
+.mt30 {
+    margin-top: 30px;
+}
