@@ -49866,7 +49866,7 @@ aside .menu .item .icon141 > * {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    padding: 4px;
+    padding: 7px;
 }
 .departament_top-title {
     font-family: 'Ubuntu';
@@ -50934,6 +50934,9 @@ aside .menu .item .icon141 > * {
 .fact_item-label.green {
     background: #49AA1C;
 }
+.fact_item-label.red {
+    background: #ED4749;
+}
 .fact_item-text {
     margin-top: 24px;
     font-family: 'Ubuntu';
@@ -51136,6 +51139,24 @@ aside .menu .item .icon141 > * {
     line-height: 1.2;
     color: #585683;
     border: none;
+}
+.fact_description {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fact_description span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #585683;
+    margin-bottom: 0;
+}
+.fact_description .icon {
+    width: 24px;
+    height: 24px;
 }
 
 

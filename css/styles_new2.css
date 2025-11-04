@@ -2924,6 +2924,60 @@
 
 
 
+.fact_modal {
+    display: none;
+    max-width: 740px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    padding: 28px 25px;
+}
+.fact_modal-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    color: #1D1D1D;
+    margin-bottom: 25px;
+}
+.fact_modal-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #585683;
+    margin-bottom: 13px;
+}
+.fact_modal form {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.fact_modal form textarea {
+    padding: 19px 16px;
+    background: #FFFFFF;
+    border: 1px solid #949494;
+    border-radius: 10px;
+    resize: none;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #818181;    
+    position: relative;
+    padding-bottom: 28px;
+    height: 120px;
+}
+.fact_modal-btn {
+    display: inline-flex;
+    margin-left: auto;
+    margin-top: 28px;
+}
+
+
+
+
 
 
 

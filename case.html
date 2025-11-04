@@ -30,6 +30,7 @@
 		<link rel="stylesheet" href="css/nice-select.css">
 		<link rel="stylesheet" href="css/fancybox.css" async>
 		<link rel="stylesheet" href="css/styles.css" async>
+		<link rel="stylesheet" href="css/styles_new2.css" async>
 
 		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
 		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
@@ -686,7 +687,7 @@
 														</svg>
 														<span>5</span>
 													</div>
-													<a href="#" class="fact_item-link blau">Редактировать</a>	
+													<a href="#" class="fact_item-link blau modal_btn" data-content="#fact_modal">Редактировать</a>	
 												</div>												
 											</div>
 										</div>
@@ -759,7 +760,7 @@
 														</svg>
 														<span>5</span>
 													</div>
-													<a href="#" class="fact_item-link blau">Редактировать</a>	
+													<a href="#" class="fact_item-link blau modal_btn" data-content="#fact_modal">Редактировать</a>		
 												</div>												
 											</div>
 											<form>
@@ -767,13 +768,158 @@
 												<button type="submit" class="btn2 fact_btn">Отправить</button>
 											</form>
 										</div>
-
 									</div>
 								</div>
+							</section>
+
+
+
+							<section class="download">
+								<div class="block_upload">
+									<form method="post" action="https://css-tricks.com/examples/DragAndDropFileUploading//?" enctype="multipart/form-data" novalidate="" class="box has-advanced-upload">
+										<div class="box__input">
+											<input type="file" name="files[]" id="file" class="box__file" data-multiple-caption="{count} files selected" multiple="">
+											<label for="file">Добавить факт</label>
+											<button type="submit" class="box__button">Загрузить</button>
+										</div>										
+										<div class="box__uploading">Загрузка…</div>
+										<div class="box__success">Готово! <a href="https://css-tricks.com/examples/DragAndDropFileUploading//?" class="box__restart" role="button">Загрузить еще?</a></div>
+										<div class="box__error">Ошибка! <span></span>. <a href="https://css-tricks.com/examples/DragAndDropFileUploading//?" class="box__restart" role="button">Попробуйте еще раз!</a></div>
+									<input type="hidden" name="ajax" value="1"></form>
+								</div>	
 							</section>
 							
 
 
+
+							<section class="fact">
+								<div class="well_item-top">										
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#well15"></use>
+									</svg>										
+									<div class="well_item-info">
+										<div class="well_item-title">Частые ошибки</div>
+										<div class="well_item-text">Ошибки</div>
+									</div>							
+								</div>	
+								<div class="well_item-bottom">
+									<div class="fact_items">
+										<div class="fact_item">
+											<div class="fact_item-labels">
+												<div class="fact_item-label blau">Человек</div>
+												<div class="fact_item-label green">Одобрен</div>
+											</div>
+											<div class="fact_item-text"><b>"Написать жалобу начальнику".</b>  Сразу идти "ябедничать" руководителю, не попытавшись решить вопрос с коллегой напрямую.</div>
+											<div class="fact_item-bottom">
+												<div class="fact_item-bottom-wrap">
+													<div class="fact_item-like">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#like5"></use>
+														</svg>
+														<span>15</span>
+													</div>
+													<div class="fact_item-like">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#like6"></use>
+														</svg>
+														<span>23</span>
+													</div>
+													<div class="fact_item-like">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#like7"></use>
+														</svg>
+														<span>5</span>
+													</div>
+													<a href="#" class="fact_item-link blau">Редактировать</a>	
+												</div>												
+											</div>
+										</div>
+										<div class="fact_item">
+											<div class="fact_item-labels">
+												<div class="fact_item-label blau">ИИ</div>
+												<div class="fact_item-label red">Отклонен</div>
+											</div>
+											<div class="fact_item-text"><b>"Написать жалобу начальнику".</b>  Сразу идти "ябедничать" руководителю, не попытавшись решить вопрос с коллегой напрямую.</div>
+											<div class="fact_item-bottom">
+												<div class="fact_item-bottom-wrap">
+													<div class="fact_item-like">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#like5"></use>
+														</svg>
+														<span>15</span>
+													</div>
+													<div class="fact_item-like">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#like6"></use>
+														</svg>
+														<span>23</span>
+													</div>
+													<div class="fact_item-like">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#like7"></use>
+														</svg>
+														<span>5</span>
+													</div>
+													<a href="#" class="fact_item-link blau">Редактировать</a>	
+												</div>												
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="download">
+								<div class="block_upload">
+									<form method="post" action="https://css-tricks.com/examples/DragAndDropFileUploading//?" enctype="multipart/form-data" novalidate="" class="box has-advanced-upload">
+										<div class="box__input">
+											<input type="file" name="files[]" id="file" class="box__file" data-multiple-caption="{count} files selected" multiple="">
+											<label for="file">Добавить ошибку</label>
+											<button type="submit" class="box__button">Загрузить</button>
+										</div>										
+										<div class="box__uploading">Загрузка…</div>
+										<div class="box__success">Готово! <a href="https://css-tricks.com/examples/DragAndDropFileUploading//?" class="box__restart" role="button">Загрузить еще?</a></div>
+										<div class="box__error">Ошибка! <span></span>. <a href="https://css-tricks.com/examples/DragAndDropFileUploading//?" class="box__restart" role="button">Попробуйте еще раз!</a></div>
+									<input type="hidden" name="ajax" value="1"></form>
+								</div>	
+							</section>
+
+
+							<section class="fact">
+								<div class="well_item-top">										
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#well16"></use>
+									</svg>										
+									<div class="well_item-info">
+										<div class="well_item-title">Гипотезы</div>
+										<div class="well_item-text">Какие-то гипотезы</div>
+									</div>							
+								</div>	
+								<div class="well_item-bottom">
+									<div class="fact_description">
+										<svg class="icon">
+											<use xlink:href="images/sprite.svg#warning654"></use>
+										</svg>	
+										<span>Здесь пока ничего нет. Добавьте первую гипотезу</span>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="download">
+								<div class="block_upload">
+									<form method="post" action="https://css-tricks.com/examples/DragAndDropFileUploading//?" enctype="multipart/form-data" novalidate="" class="box has-advanced-upload">
+										<div class="box__input">
+											<input type="file" name="files[]" id="file" class="box__file" data-multiple-caption="{count} files selected" multiple="">
+											<label for="file">Добавить гипотезу</label>
+											<button type="submit" class="box__button">Загрузить</button>
+										</div>										
+										<div class="box__uploading">Загрузка…</div>
+										<div class="box__success">Готово! <a href="https://css-tricks.com/examples/DragAndDropFileUploading//?" class="box__restart" role="button">Загрузить еще?</a></div>
+										<div class="box__error">Ошибка! <span></span>. <a href="https://css-tricks.com/examples/DragAndDropFileUploading//?" class="box__restart" role="button">Попробуйте еще раз!</a></div>
+									<input type="hidden" name="ajax" value="1"></form>
+								</div>	
+							</section>
 							
 			
 								
@@ -835,6 +981,16 @@
 			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.webm" type="video/webm">
 			    <track src="https://thepaciellogroup.github.io/AT-browser-tests/video/subtitles-en.vtt" label="English subtitles" kind="captions" srclang="en" default></track>
 			</video>
+		</section>
+
+
+		<section class="fact_modal" id="fact_modal">
+			<div class="fact_modal-title">Добавить факт</div>
+			<div class="fact_modal-text">Описание факта</div>
+			<form>
+				<textarea name="fact_modal" id="fact_modal-area" placeholder="Факт..."></textarea>
+				<button type="submit" class="btn2 fact_modal-btn">Отправить</button>
+			</form>
 		</section>
 
 
