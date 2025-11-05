@@ -700,6 +700,17 @@
         margin-left: 40px;
     }
 
+    .case_top-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .case_top-wrap span {
+        display: none;
+    }
+    .case_top-time span {
+        display: block;
+    }
+
 
 
 }

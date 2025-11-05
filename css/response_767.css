@@ -3904,6 +3904,13 @@
     }
 
 
+    .case .select-wrapper {
+        width: 100%;
+    }
+    .change-status_box {
+        flex-wrap: wrap;
+    }
+
 
 
 
