@@ -50138,9 +50138,7 @@ aside .menu .item .icon141 > * {
     margin-bottom: 15px;
 }
 
-.member_items {
-    width: max-content;
-}
+
 .member_item {
     display: flex;
     flex-wrap: nowrap;
@@ -50151,8 +50149,7 @@ aside .menu .item .icon141 > * {
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.08);
     border-radius: 15px;
     white-space: nowrap;
-    width: 100%;
-    
+    width: 100%;    
 }
 .member_item + .member_item {
     margin-top: 12px;
@@ -50178,7 +50175,9 @@ aside .menu .item .icon141 > * {
 .member_item.hide {
     display: none;
 }
-
+.member_btn {
+    margin-top: 25px;
+}
 
 .conflict_item {
     padding: 28px 24px 20px;

@@ -3922,6 +3922,33 @@
     .audio-response_btn {
         margin-top: 15px;
     }
+    .structure_items {
+        flex-wrap: wrap;
+    }
+    .structure_items > * {
+        width: 100%;
+    }
+    .contained_item-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contained_item-btn {
+        margin-top: 15px;
+    }
+    .well_item-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contained_item-btn {
+        margin-top: 20px;
+    }
+    .well_item-link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .well_item-link_btn {
+        margin-top: 20px;
+    }
 
 
 

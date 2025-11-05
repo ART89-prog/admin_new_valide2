@@ -724,6 +724,9 @@
     .conflict_item-top_time {
         align-items: flex-start;
     }
+    .member_items {
+        width: max-content;
+    }
 
 
 
