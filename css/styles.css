@@ -51168,6 +51168,7 @@ aside .menu .item .icon141 > * {
 .fact_description .icon {
     width: 24px;
     height: 24px;
+    flex-shrink: 0;
 }
 
 
@@ -51713,7 +51714,7 @@ p.italic {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 23px;
+    line-height: 1.2;
     color: #585683;
     margin-bottom: 0;   
 }
