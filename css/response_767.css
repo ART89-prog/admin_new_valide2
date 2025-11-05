@@ -3914,6 +3914,12 @@
         flex-direction: column;
     }
 
+    .well_item-link_text {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
 
     .audio-response_top {
         flex-direction: column;

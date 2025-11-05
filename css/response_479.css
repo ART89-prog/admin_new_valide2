@@ -2424,6 +2424,12 @@
         width: 100%;
     }
 
+    .audio-response .accordion_item .head .icon {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 15px;
+    }
+
 
 
 

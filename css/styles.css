@@ -51542,7 +51542,6 @@ p.italic {
 }
 .contained_item-bottom {
     display: flex;
-    align-items: center;
     gap: 6px;
     margin-top: 16px;
 }
@@ -51559,6 +51558,7 @@ p.italic {
 .contained_item-bottom .icon {
     width: 19px;
     height: 19px;
+    flex-shrink: 0;
 }
 .contained_item-text {
     margin-top: 5px;
