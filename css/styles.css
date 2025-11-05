@@ -50138,6 +50138,9 @@ aside .menu .item .icon141 > * {
     margin-bottom: 15px;
 }
 
+.member_items {
+    width: max-content;
+}
 .member_item {
     display: flex;
     flex-wrap: nowrap;
@@ -51330,6 +51333,7 @@ aside .menu .item .icon141 > * {
 .audio-response_author-avatar {
     width: 43px;
     height: 43px;
+    flex-shrink: 0;
 }
 .audio-response_author-avatar img {
     width: 100%;
@@ -51363,30 +51367,7 @@ aside .menu .item .icon141 > * {
     color: #1D1D1D;
     margin-bottom: 15px;
 }
-.accordion {
-}
-.accordion_sort {
-}
-.accordion_new_style {
-}
-.accordion_item {
-}
-.head {
-}
-.title {
-}
-.icon {
-}
-.data {
-}
-.text_block {
-}
-.text_block_wrap {
-}
-.fast_link {
-}
-.faq_search {
-}
+
 
 .audio-response_bottom .accordion_item .head .title {
     padding-left: 0px;
@@ -51417,7 +51398,7 @@ aside .menu .item .icon141 > * {
     padding: 2px;
     transform: rotate(45deg);
     position: relative;
-    top: 0px;
+    top: -1px;
     transition: 0.3s;
 }
 .audio-response_bottom .accordion_item .head {

@@ -3915,6 +3915,15 @@
     }
 
 
+    .audio-response_top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .audio-response_btn {
+        margin-top: 15px;
+    }
+
+
 
 
  

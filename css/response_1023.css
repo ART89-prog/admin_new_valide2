@@ -721,9 +721,8 @@
     .case_top-time span {
         display: block;
     }
-
     .conflict_item-top_time {
-        flex-wrap: wrap;
+        align-items: flex-start;
     }
 
 
