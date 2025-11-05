@@ -50003,7 +50003,6 @@ aside .menu .item .icon141 > * {
 }
 .well_item-top {
     display: flex;
-    align-items: center;
     gap: 17px;
 }
 .well_item-top .icon {
@@ -50474,7 +50473,9 @@ aside .menu .item .icon141 > * {
     background: #D42121;
 }
 
-
+.idea-head_left {
+    width: max-content;
+}
 
 .company_modal {
     display: none;
@@ -51675,6 +51676,7 @@ p.italic {
 .characteristic_avatar {
     width: 187px;
     height: 187px;
+    flex-shrink: 0;
 }
 .characteristic_avatar img {
     width: 100%;
@@ -51714,6 +51716,7 @@ p.italic {
 .characteristic_item .icon {
     width: 27px;
     height: 27px;
+    flex-shrink: 0;
 }
 .characteristic_text {
     font-family: 'Ubuntu';

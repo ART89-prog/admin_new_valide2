@@ -3910,7 +3910,9 @@
     .change-status_box {
         flex-wrap: wrap;
     }
-
+    .characteristic_top {
+        flex-direction: column;
+    }
 
 
 

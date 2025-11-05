@@ -693,6 +693,17 @@
     }
 
 
+    .tabs_container .tabs {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+    .tabs_container .idea-head_left button {
+        border: 1px solid #555;
+        margin-top: 10px;
+        width: 100%;
+    }
+
 
 
 
@@ -709,6 +720,10 @@
     }
     .case_top-time span {
         display: block;
+    }
+
+    .conflict_item-top_time {
+        flex-wrap: wrap;
     }
 
 

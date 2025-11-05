@@ -2411,6 +2411,14 @@
 
 
 
+    .new-project_btns {
+        flex-direction: column;
+    }
+    .new-project_btns > * {
+        width: 100%;
+    }
+
+
 
 
 
