@@ -51589,12 +51589,6 @@ p.italic {
     margin-bottom: 30px; 
 }
 
-.well_item-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
 
 .mt30 {
     margin-top: 30px;
@@ -51911,3 +51905,30 @@ p.italic {
     border-radius: 55px;
     text-decoration: none;
 }
+
+
+
+.well_item-label {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 5px;
+}
+.well_item-label.green {
+    background: #49AA1C;
+}
+.contained_item-label.var {
+    background: var(--main_color);
+}
+.contained_item-wrapper {
+    margin-top: 20px;
+    padding: 27px 22px;
+    background: #F3F3FF;
+    border-radius: 14px;
+}
+

@@ -2925,3 +2925,50 @@
 
 
 
+.well_wrap-items {
+    margin-top: 20px;
+    display: flex;
+    gap: 13px;
+    margin-bottom: 13px;
+}
+.well_wrap-items > * {
+    width: calc(100%/5 - 10px);
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 16px;
+}
+.well_wrap-item_title {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #585683;
+    margin-bottom: 8px;
+}
+.well_wrap-item_text {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #585683;
+}
+.well_box {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 16px;
+    margin-top: 13px;
+}
+.well_box-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #585683;
+    margin-bottom: 8px;
+}
+.well_box-text {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #585683;
+}
