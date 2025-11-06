@@ -2430,6 +2430,13 @@
         right: 15px;
     }
 
+    .well_wrap-items > * {
+        width: 100%;
+    }
+    .contained_item-wrapper {
+        padding: 14px;
+    }
+
 
 
 

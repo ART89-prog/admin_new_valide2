@@ -51475,6 +51475,7 @@ p.italic {
 }
 .contained_item-top {
     position: relative;
+    gap: 20px;
     padding-bottom: 20px;
     display: flex;
     align-items: center;
@@ -51702,7 +51703,12 @@ p.italic {
     margin-top: 24px;
 }
 
-
+.well_item-wrap {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .well_item-bottom .fact_description span {
     font-family: 'Ubuntu';
     font-style: normal;
@@ -51970,4 +51976,118 @@ p.italic {
     transition: width .3s linear;
     border-radius: 8px;
     background: var(--main_color);
+}
+
+
+
+
+.well_wrap-items {
+    margin-top: 20px;
+    display: flex;
+    gap: 13px;
+    margin-bottom: 13px;
+    flex-wrap: wrap;
+}
+.well_wrap-items > * {
+    width: calc(100%/5 - 11px);
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 16px;
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.well_wrap-item_title {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #585683;
+    margin-bottom: 8px;
+}
+.well_wrap-item_text {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #585683;
+}
+.well_box {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 16px;
+    margin-top: 13px;
+}
+.well_box-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #585683;
+    margin-bottom: 8px;
+}
+.well_box-text {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #585683;
+}
+
+
+
+
+
+.progress-bar__wrapper {
+  position: relative;
+  padding: 16px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.progress-bar__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.progress-bar__value {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    color: #585683;
+}
+progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #D9D7EF;
+  transition: width 300ms ease;
+}
+progress[value]::-webkit-progress-bar {
+  width: 100%;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #D9D7EF;
+  transition: width 300ms ease;
+}
+progress[value]::-webkit-progress-value {
+  width: 0;
+  border-radius: 50px;
+  background-color: #49AA1C;
+  transition: width 300ms ease;
+}
+.progress-bar__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #585683;
+}
+
+
+.mb22 {
+    margin-bottom: 22px;
+}
+.mt0 {
+    margin-top: 0;
 }

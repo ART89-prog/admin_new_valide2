@@ -3938,15 +3938,9 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    .contained_item-btn {
-        margin-top: 15px;
-    }
     .well_item-wrap {
         flex-direction: column;
         align-items: flex-start;
-    }
-    .contained_item-btn {
-        margin-top: 20px;
     }
     .well_item-link {
         flex-direction: column;
@@ -3956,6 +3950,10 @@
         margin-top: 20px;
     }
 
+
+    .well_wrap-items > * {
+        width: calc(100% / 2 - 7px);
+    }
 
 
 

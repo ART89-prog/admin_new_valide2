@@ -729,5 +729,9 @@
     }
 
 
+    .well_wrap-items > * {
+        width: calc(100% / 3 - 9px);
+    }
+
 
 }
