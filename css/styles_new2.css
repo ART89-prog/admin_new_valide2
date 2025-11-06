@@ -2980,15 +2980,13 @@
 .progress-bar__wrapper {
   position: relative;
 }
+.progress-bar__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .progress-bar__value {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 progress {
   width: 100%;
