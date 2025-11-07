@@ -3955,6 +3955,10 @@
         width: calc(100% / 2 - 7px);
     }
 
+    .well_item-top,
+    .matter_item-top {
+        align-items: flex-start;
+    }
 
 
  

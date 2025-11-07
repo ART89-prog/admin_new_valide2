@@ -49728,7 +49728,7 @@ aside .menu .item .icon141 > * {
     font-weight: 400;
     font-size: 15px;
     line-height: 23px;
-    color: #458FFF;
+    color: #5D5D5D;
     text-decoration: none;
 }
 .company .breadcrumbs .sep {
@@ -49736,7 +49736,7 @@ aside .menu .item .icon141 > * {
     font-weight: 400;
     font-size: 15px;
     line-height: 23px;
-    color: #458FFF;
+    color: #5D5D5D;
     text-decoration: none;
 }
 .company .breadcrumbs .current {
@@ -49744,7 +49744,7 @@ aside .menu .item .icon141 > * {
     font-weight: 400;
     font-size: 15px;
     line-height: 23px;
-    color: #458FFF;
+    color: #5D5D5D;
     text-decoration: none;
 }
 .company_item {
@@ -50003,6 +50003,7 @@ aside .menu .item .icon141 > * {
 }
 .well_item-top {
     display: flex;
+    align-items: center;
     gap: 17px;
 }
 .well_item-top .icon {
@@ -50600,12 +50601,14 @@ aside .menu .item .icon141 > * {
     margin-top: 20px;
 }
 .discourse_item.one {
+    margin-right: auto;
+    width: 70%;
+}
+.discourse_item.one .discourse_item-box {
     padding: 18px 16px;
     background: #FFFFFF;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.08);
     border-radius: 15px; 
-    margin-right: auto;
-    width: 70%;
 }
 .discourse_item.one .discourse_item_title {
     font-family: 'Ubuntu';
@@ -50615,6 +50618,17 @@ aside .menu .item .icon141 > * {
     color: #585683;
     margin-bottom: 10px;
 }
+.discourse_item.one .discourse_item-date {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #817FA8;
+    margin-top: 8px;   
+    display: flex;
+    justify-content: flex-end;
+}
 .discourse_item.one .discourse_item_text {
     font-family: 'Ubuntu';
     font-weight: 400;
@@ -50623,11 +50637,14 @@ aside .menu .item .icon141 > * {
     color: #585683;
 }
 .discourse_item.two {
-    padding: 18px 16px;
-    background: #0B00D8;
-    border-radius: 15px;
     margin-left: auto;
     width: 70%;
+}
+.discourse_item.two .discourse_item-box {
+    padding: 18px 16px;
+    background: var(--main_color);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.08);
+    border-radius: 15px; 
 }
 .discourse_item.two .discourse_item_title {
     font-family: 'Ubuntu';
@@ -50636,6 +50653,17 @@ aside .menu .item .icon141 > * {
     line-height: 1.2;
     color: #fff;
     margin-bottom: 10px;
+}
+.discourse_item.two .discourse_item-date {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #817FA8;
+    margin-top: 8px;   
+    display: flex;
+    justify-content: flex-start;
 }
 .discourse_item.two .discourse_item_text {
     font-family: 'Ubuntu';
@@ -51048,19 +51076,23 @@ aside .menu .item .icon141 > * {
     padding: 0px;
 }
 .fact .select-wrapper select {
-  -webkit-appearance: none;
+   -webkit-appearance: none;
 }
 .fact .select-wrapper {
   position: relative;
+    background: #fff;
+    border-radius: 50px;
+    width: 350px;
+    margin-right: auto;
 }
 .fact .select-wrapper svg {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  right: 14px;
-  top: calc(50% - 10px);
-  pointer-events: none;
-  transition: fill 0.5s;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 14px;
+    top: calc(50% - 10px);
+    pointer-events: none;
+    transition: fill 0.5s;
 }
 .fact .nice-select.open ~ svg {
     transform: rotate(180deg);
@@ -51108,7 +51140,8 @@ aside .menu .item .icon141 > * {
   position: relative;
   background: #fff;
   border-radius: 50px;
-  width: calc(100% - 169px);
+  width: 350px;
+  margin-right: auto;
 }
 .case .select-wrapper svg {
   width: 20px;
@@ -51746,6 +51779,7 @@ p.italic {
 }
 .matter_item-top {
     display: flex;
+    align-items: center;
     gap: 16px;
 }
 .matter_item-title {
@@ -51767,6 +51801,9 @@ p.italic {
     padding: 12px;
     background: #F3F3FF;
     border-radius: 14px;
+}
+.matter_item-bottom + .matter_item-bottom {
+    margin-top: 15px;
 }
 .matter_item-bottom_title {
     font-family: 'Ubuntu';
@@ -52038,50 +52075,27 @@ p.italic {
 
 
 
-.progress-bar__wrapper {
-  position: relative;
-  padding: 16px;
-    background: #FFFFFF;
-    border-radius: 14px;
-}
-.progress-bar__box {
+.progress-bar_box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 8px;
 }
-.progress-bar__value {
+.progress-bar_value {
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 14px;
     line-height: 1;
     color: #585683;
 }
-progress {
-  width: 100%;
-  height: 20px;
-  border-radius: 50px;
-  background-color: #D9D7EF;
-  transition: width 300ms ease;
-}
-progress[value]::-webkit-progress-bar {
-  width: 100%;
-  height: 20px;
-  border-radius: 50px;
-  background-color: #D9D7EF;
-  transition: width 300ms ease;
-}
-progress[value]::-webkit-progress-value {
-  width: 0;
-  border-radius: 50px;
-  background-color: #49AA1C;
-  transition: width 300ms ease;
-}
-.progress-bar__title {
+.progress-bar_title {
     font-weight: 400;
     font-size: 14px;
     line-height: 1;
     color: #585683;
+}
+.contained_item-wrapper .attestation-active .bar .progress-line span {
+    background: #49AA1C;
 }
 
 
