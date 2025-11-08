@@ -52510,3 +52510,88 @@ p.italic {
 .certification_box + .certification_box {
     margin-top: 24px;
 }
+
+
+
+.certification_modal {
+    display: none;
+    max-width: 800px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 36px 15px 20px;
+}
+.certification_modal-top {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+.certification_modal-top .icon {
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    background: rgba(173, 206, 24, 0.2);
+    border-radius: 9px;
+    flex-shrink: 0;
+}
+.certification_modal-title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000;
+}
+.certification_modal-text {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #020027;
+    opacity: 0.6;
+}
+.certification_modal-wrap + .certification_modal-wrap {
+    margin-top: 40px;
+}
+.certification_modal-wrap_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #020027;
+    margin-bottom: 16px;
+}
+.certification_modal-items {
+    padding: 16px;
+    background: #F3F3FF;
+    border-radius: 8px;
+}
+.certification_modal-item {
+    gap: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.certification_modal-item:last-child {
+    margin-bottom: 0;
+    font-weight: 700;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 16px;
+}
+.certification_modal-item_title {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #7874A3;
+}
+.certification_modal-item_text {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #7874A3;
+}
+

@@ -2448,6 +2448,9 @@
         width: 100%;
         justify-content: center;
     }
+    .certification_bottom-btn {
+        padding: 15px 20px;
+    }
 
 
 
