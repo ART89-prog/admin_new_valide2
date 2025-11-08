@@ -52176,10 +52176,10 @@ p.italic {
 
 
 
-.certification .tab_content > * {
+.certification_box > * {
     margin-top: 40px;
 }
-.certification .tab_content > *:first-child {
+.certification_box> *:first-child {
     margin-top: 0;
 }
 .certification .tabs_container {
@@ -52190,7 +52190,7 @@ p.italic {
     gap: 12px;
     flex-wrap: wrap;
 }
-.certification .tab_content.active {
+.certification .tab_content.active .certification_box {
     padding: 24px;
     background: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
@@ -52436,4 +52436,54 @@ p.italic {
     font-size: 14px;
     line-height: 16px;
     color: #7874A3;
+}
+
+
+.certification_bottom {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.certification_bottom-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #020027;
+    background: rgba(213, 56, 56, 0.1);
+    box-shadow: 0px 1px 2px rgba(10, 13, 18, 0.05);
+    border-radius: 12px;
+    padding: 8px 16px;
+}
+.certification_bottom-btns {
+    display: flex;
+    gap: 12px;
+}
+.certification_bottom-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    border: 1px solid #ADCE18;
+    border-radius: 80px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #ADCE18;
+    text-decoration: none;
+}
+.certification_bottom-btn.active {
+    background: #ADCE18;
+    color: #fff;
+}
+.certification_box + .certification_box {
+    margin-top: 24px;
 }
