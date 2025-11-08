@@ -52537,7 +52537,7 @@ p.italic {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 28px;
+    line-height: 1.15;
     color: #000;
 }
 .certification_modal-text {
@@ -52598,4 +52598,7 @@ p.italic {
 
 .fact_buttons.mb40 {
     margin-bottom: 40px;
+}
+.certification_modal-info {
+    width: calc(100% - 105px);
 }
