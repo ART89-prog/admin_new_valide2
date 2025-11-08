@@ -3961,6 +3961,23 @@
     }
 
 
+    .courses-certification_items > *,
+    .structure-certification_items > * {
+        width: calc(100% / 2 - 4px);
+    }
+    .roles-certification_item {
+        width: 100%;
+    }
+    .certification .tabs_container {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .certification_left-title {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+
  
 
 

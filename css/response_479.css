@@ -2440,6 +2440,14 @@
         width: 100%;
     }
 
+    .courses-certification_items > *, 
+    .structure-certification_items > * {
+        width: 100%;
+    }
+    .certification_bottom-label {
+        width: 100%;
+        justify-content: center;
+    }
 
 
 

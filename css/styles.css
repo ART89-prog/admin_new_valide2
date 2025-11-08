@@ -52233,6 +52233,7 @@ p.italic {
     padding: 16px;
     background: rgba(173, 206, 24, 0.2);
     border-radius: 9px;
+    flex-shrink: 0;
 }
 .certification_left-title {
     font-family: 'Ubuntu';
@@ -52256,6 +52257,7 @@ p.italic {
 .certification_left-text .icon2 {
     width: 20px;
     height: 20px;
+    flex-shrink: 0;
 }
 .certification_left-text + .certification_left-text {
     margin-top: 16px;
@@ -52271,11 +52273,21 @@ p.italic {
     font-weight: 700;
     font-size: 12px;
     line-height: 14px;
-    color: #E8AF19;
     padding: 5px 8px;
-    background: rgba(232, 175, 25, 0.1);
     border-radius: 80px;
     display: block;
+}
+.certification_right-label.yellow {
+    color: #E8AF19;
+    background: rgba(232, 175, 25, 0.1);
+}
+.certification_right-label.green {
+    color: #ADCE18;
+    background: rgba(173, 206, 24, 0.1);
+}
+.certification_right-label.red {
+    color: #D53838;
+     background: #FBEBEB;
 }
 .certification_right-text {
     font-family: 'Ubuntu';
@@ -52317,7 +52329,9 @@ p.italic {
 }
 .roles-certification_items {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
+    flex-shrink: 0;
 }
 .roles-certification_item {
     padding: 6px 16px;
@@ -52328,6 +52342,7 @@ p.italic {
     color: #020027;
     border: 1px solid #E6E6E6;
     border-radius: 80px;
+    text-align: center;
 }
 .courses-certification {
     min-height: 120px;
@@ -52350,6 +52365,9 @@ p.italic {
     background: #F3F3FF;
     border-radius: 8px;
     width: calc(100%/4 - 6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .courses-certification_item-title {
     font-weight: 400;
@@ -52456,10 +52474,15 @@ p.italic {
     font-size: 14px;
     line-height: 1.1;
     color: #020027;
-    background: rgba(213, 56, 56, 0.1);
     box-shadow: 0px 1px 2px rgba(10, 13, 18, 0.05);
     border-radius: 12px;
     padding: 8px 16px;
+}
+.certification_bottom-label.red {    
+    background: rgba(213, 56, 56, 0.1);
+}
+.certification_bottom-label.green {
+    background: rgba(173, 206, 24, 0.1);
 }
 .certification_bottom-btns {
     display: flex;
