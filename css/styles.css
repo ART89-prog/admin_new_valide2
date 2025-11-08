@@ -49768,14 +49768,11 @@ aside .menu .item .icon141 > * {
 }
 .company_item-logo {
     width: 83px;
-    height: 83px;
+    height: auto;
     flex-shrink: 0;
 }
 .company_item-logo img {
     width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    object-fit: cover;
 }
 .company_item-title {
     font-family: 'Ubuntu';
@@ -52595,3 +52592,10 @@ p.italic {
     color: #7874A3;
 }
 
+.loading_box {
+    margin-top: 40px;
+}
+
+.fact_buttons.mb40 {
+    margin-bottom: 40px;
+}
