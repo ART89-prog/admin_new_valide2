@@ -151,6 +151,11 @@ $(() => {
 	});
 
 
+	$('.fact_button-ii').click(function (e) {
+		e.preventDefault();
+		$('.loading_box').addClass('active');
+	});
+
 
 	$(".create-report_wrap_hide").each(function (index) {
 		if ($(this).outerHeight() > 46) {

@@ -10647,8 +10647,8 @@ aside .menu .sub_menu a.active
 {
     display: block;
 
-    width: 27px;
-    height: 27px;
+    width: 28px;
+    height: 28px;
 }
 
 
@@ -51205,6 +51205,38 @@ aside .menu .item .icon141 > * {
 }
 
 
+.fact_buttons {
+    display: flex;
+    gap: 15px;
+}
+.fact_buttons > * {
+    width: calc(100%/2 - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fact_buttons-item {
+    padding: 20px 30px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.fact_button {   
+    text-decoration: none; 
+    background: #FFFFFF;
+    border: 1px dashed #BBBBBB;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A6A6A6;
+}
+
+
+
 .change-status {
     padding: 22px 20px 24px;
     background: #F3F3FF;
@@ -52104,4 +52136,39 @@ p.italic {
 }
 .mt0 {
     margin-top: 0;
+}
+
+
+.content .idea-page_comment .comment .data {
+    border-bottom: 1px solid #ABAAE2;
+}
+
+
+.loading_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    padding: 35px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.loading_box .message_load {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0;    
+}
+.loading_box-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4A4A;
+}
+.loading_box {
+    display: none;
+}
+.loading_box.active {
+    display: flex;
 }
