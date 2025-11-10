@@ -52703,13 +52703,12 @@ p.italic {
     background: #E1DFF9;
     border-radius: 20px;
     width: 293px;
+    overflow: hidden;
 }
 .qualification_item-rating span {
     background: #7DB81D;
     height: 10px;
     display: block;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
 }
 .qualification_item-bottom {
     margin-top: 8px;
@@ -52741,6 +52740,9 @@ p.italic {
 }
 .qualification_item-label.gray {
     background: #817FA8;
+}
+.qualification_item-label.green {
+    background: #7DB81D;
 }
 .qualification_item-label:before {
     position: absolute;
