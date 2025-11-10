@@ -52710,6 +52710,9 @@ p.italic {
     height: 10px;
     display: block;
 }
+.qualification_item-rating.red span {
+    background: #E53437;
+}
 .qualification_item-bottom {
     margin-top: 8px;
     font-family: 'Ubuntu';
@@ -52738,8 +52741,8 @@ p.italic {
 .qualification_item-label.yellow {
     background: #FE7905;
 }
-.qualification_item-label.gray {
-    background: #817FA8;
+.qualification_item-label.red {
+    background: #E53437;
 }
 .qualification_item-label.green {
     background: #7DB81D;
