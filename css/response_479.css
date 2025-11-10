@@ -2451,11 +2451,8 @@
         padding: 15px 20px;
     }
 
-
-    .qualification_item-wrapper {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 6px;
+    .loading_box{
+        padding: 15px;
     }
 
 
