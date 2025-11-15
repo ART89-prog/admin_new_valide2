@@ -2463,6 +2463,12 @@
         gap: 6px;
     }
 
+    .draft_items > * {
+        width: 100%;
+    }
+    .draft_btn {
+        width: 100%;
+    }
 
 
 
