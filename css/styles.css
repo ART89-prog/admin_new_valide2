@@ -53260,3 +53260,56 @@ p.italic {
     top: 0;
     background: #D8D8D8;
 }
+.draft_description {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.draft_describing {    
+    position: relative;
+    padding-top: 22px;
+    margin-top: 28px;
+}
+.draft_describing:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 44px);
+    height: 1px;
+    left: -22px;
+    top: 0;
+    background: #D8D8D8;
+}
+.draft_describing-wrap {
+    padding: 12px;
+    background: #F3F3FF;
+    border-radius: 14px;
+}
+.draft_describing_top {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 9px;
+}
+.draft_describing-icon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+.draft_describing-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #817FA8;
+}
+.draft_describing-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #817FA8;
+}
+.draft_describing-text p + p {
+    margin-top: 18px;
+}

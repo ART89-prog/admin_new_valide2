@@ -4007,6 +4007,10 @@
         flex-direction: column;
         align-items: flex-start;
     }
+    .draft_description {
+        flex-direction: column;
+        gap: 0px;
+    }
 
  
 
