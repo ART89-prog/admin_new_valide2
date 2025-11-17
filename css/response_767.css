@@ -4012,6 +4012,15 @@
         gap: 0px;
     }
 
+    .estimate_bottom-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .estimate_bottom-item_right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
  
 
 

@@ -2471,5 +2471,14 @@
     }
 
 
+    .estimate_bottom-item_left {
+        align-items: flex-start;
+    }
+    .estimate_bottom-btn,
+    .estimate_bottom-item_right {
+        width: 100%;
+    }
+
+
 
 }
