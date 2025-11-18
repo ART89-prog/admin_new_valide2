@@ -81,8 +81,6 @@ $(() => {
 	});
 
 	$(".draft_describing-btn").click(function (e) {
-		// $(this).toggleClass("active");
-		// $(".draft_describing-text p").toggleClass("hide");
 		$(".draft_describing-text p").removeClass("hide");
 		$(".draft_describing-btn").addClass("active");
 	});
