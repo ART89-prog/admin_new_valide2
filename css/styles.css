@@ -53847,3 +53847,176 @@ p.italic {
     color: #FFFFFF;
     margin-top: 15px;
 }
+
+
+.ability {
+    margin-top: 30px;
+    padding: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.08);
+    border-radius: 15px; 
+}
+.ability_top {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    position: relative;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+}
+.ability_top:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 44px);
+    height: 1px;
+    left: -22px;
+    bottom: 0;
+    background: #D8D8D8;
+}
+.ability_top .icon {
+    width: 45px;
+    height: 45px;
+    background: var(--color_light);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 4px;
+}
+.ability_title {    
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    margin-bottom: 3px;
+}
+.ability_text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #817FA8;
+}
+
+.ability .progress-bar_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.ability .progress-bar_value {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    color: #585683;
+}
+.ability .progress-bar_title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.3px;
+    color: #000;
+}
+.ability .bar .progress-line {
+    background: #D9D9D9;
+    width: 100%;
+    height: 6px;
+    border-radius: 10px;
+}
+.ability .bar .progress-line span {
+    background: var(--main_color);
+    height: 6px;
+}
+.ability .accordion_item.green .bar .progress-line span {
+    background: #43A72F;
+}
+.ability .accordion_item.yellow .bar .progress-line span {
+    background: #FE8A05;
+}
+.ability .accordion_item.red .bar .progress-line span {
+    background: #D94345;
+}
+.ability .accordion_item .faq_btns {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #43A72F;
+}
+.ability .accordion_item.green .faq_btns {
+    color: #43A72F;
+}
+.ability .accordion_item.yellow .faq_btns {
+    color: #FE8A05;
+}
+.ability .accordion_item.red .faq_btns {
+    color: #D94345;
+}
+.ability .accordion_item .head:before {
+    display: none;
+}
+.ability .accordion_item {
+    padding: 15px 16px;
+    background: #F3F3FF;
+    border-radius: 14px;
+}
+.ability .accordion_item.active .head {
+    border-bottom: none;
+}
+.ability .accordion_item .head {
+    padding: 0;
+    min-height: auto;
+}
+.ability .accordion_item .faq_btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ability .accordion_item .faq_btn:first-child span {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2B99F3;
+    border-bottom: 1px dashed #2B99F3;
+}
+.ability .accordion_item .faq_btn:last-child span {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2B99F3;
+    border-bottom: 1px dashed #2B99F3;
+}
+.ability_items {
+    margin-top: 21px;
+}
+.ability_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.ability_item + .ability_item {
+    margin-top: 10px;
+}
+.ability_item-title {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #474660;
+}
+.ability_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #585683;
+}

@@ -4021,6 +4021,23 @@
         align-items: flex-start;
     }
 
+    .outcome_items > * {
+        width: 100%;
+    }
+    .ability .accordion_item .faq_btn span {
+        display: block;
+    }
+    .ability .progress-bar_box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .ability_item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
  
 
 
