@@ -2491,6 +2491,13 @@
         align-items: flex-start;
     }
 
+    .estimate_box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .estimate_box-btn {
+        width: 100%;
+    }
 
 
 }

@@ -54020,3 +54020,30 @@ p.italic {
     line-height: 1.2;
     color: #585683;
 }
+
+.estimate_box {
+    padding: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.estimate_box-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #464646;
+    margin-bottom: 10px;
+}
+.estimate_box-text {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    color: #43A72F;
+}
