@@ -53812,3 +53812,38 @@ p.italic {
     width: 30px;
     flex-shrink: 0;
 }
+
+
+.outcome_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 25px;
+}
+.outcome_items > * {
+    width: calc(100%/2 - 11px);
+    padding: 20px 18px;
+    background: var(--main_color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 113px;
+    height: 100%;
+}
+.outcome_item-text {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+.outcome_item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
