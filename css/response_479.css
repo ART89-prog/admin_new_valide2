@@ -2480,7 +2480,15 @@
     }
 
     .estimate_modal {
-      
+        padding: 22px;
+    }
+    .estimate_modal-top:before {
+        width: calc(100% + 44px);
+        left: -22px;
+    }
+    .estimate_modal-bottom {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
 

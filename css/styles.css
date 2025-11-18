@@ -53524,7 +53524,8 @@ p.italic {
 }
 .competence_author-avatar {
     width: 46px;
-    height: 46px;    
+    height: 46px; 
+    flex-shrink: 0;   
 }
 .competence_author-avatar img {
     width: 100%;
