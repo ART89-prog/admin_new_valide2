@@ -53673,6 +53673,9 @@ p.italic {
     padding-top: 28px;
     position: relative;
 }
+.btn2 {
+    cursor: pointer;
+}
 .competence_btn {
     padding: 8px 20px;
     font-family: 'Ubuntu';
@@ -53686,6 +53689,7 @@ p.italic {
     background: #D8D4FF;
     border-radius: 55px;
     text-decoration: none;
+    cursor: pointer;
 }
 .competence_btns:before {
     position: absolute;

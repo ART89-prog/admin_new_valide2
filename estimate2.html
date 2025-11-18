@@ -444,7 +444,7 @@
 												
 												<div class="competence_btns">
 													<a htef="#" class="competence_btn">Назад</a>
-													<a htef="#" class="btn2">Далее</a>
+													<a htef="#" class="btn2 modal_btn" data-content="#estimate_modal">Далее</a>
 												</div>
 
 											</form>
@@ -495,19 +495,7 @@
 		</div>
 
 
-		<section class="modal" id="test">
-			<img data-src="images/ic_warning.svg" alt="" class="icon lozad">
 
-			<div class="modal_title">Аттестация по теме “Маркетинг в IT-Сфере”</div>
-
-			<div class="modal_desc">Служба Яндекс.Рефераты предназначена для студентов и школьников, дизайнеров и журналистов, создателей научных заявок. Теперь никто не сможет обвинить вас в плагиате, ибо каждый текст Яндекс.Рефератов неповторим.</div>
-
-			<div class="btns">
-				<button class="close_btn btn">Позже</button>
-
-				<a href="">Начать</a>
-			</div>
-		</section>
 
 
 		<section class="modal" id="video_modal">
@@ -516,6 +504,23 @@
 			    <source src="https://thepaciellogroup.github.io/AT-browser-tests/video/ElephantsDream.webm" type="video/webm">
 			    <track src="https://thepaciellogroup.github.io/AT-browser-tests/video/subtitles-en.vtt" label="English subtitles" kind="captions" srclang="en" default></track>
 			</video>
+		</section>
+
+
+		<section class="estimate_modal" id="estimate_modal">
+			<div class="estimate_modal-top">
+				<svg class="icon">
+					<use xlink:href="images/sprite.svg#well46"></use>
+				</svg>	
+				<div class="estimate_modal-info">
+					<div class="estimate_modal-title">Оставьте комментарий</div>
+					<div class="estimate_modal-text">Почему вы оценили коллегу именно так?</div>	
+				</div>
+			</div>						
+			<form>
+				<textarea name="estimate_modal" id="estimate_modal-area" placeholder="Ваш комментарий"></textarea>
+				<button type="submit" class="btn2 estimate_modal-btn">Отправить</button>
+			</form>
 		</section>
 
 
