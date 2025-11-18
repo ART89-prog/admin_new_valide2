@@ -53310,9 +53310,31 @@ p.italic {
     line-height: 1.2;
     color: #817FA8;
 }
-.draft_describing-text p + p {
-    margin-top: 18px;
+.draft_describing-text p {
+    margin-bottom: 18px;
 }
+.draft_describing-text p:last-child {
+    margin-bottom: 0px;
+}
+.draft_describing-btn {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #178EFF;
+    border-bottom: 1px dashed #178EFF;
+    display: inline-block;
+    margin: 12px 0;
+    width: auto;    
+}
+.draft_describing-text p.hide {
+    display: none;
+}
+.draft_describing-btn.active {
+    display: none;
+}
+
+
 
 
 

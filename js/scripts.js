@@ -80,6 +80,13 @@ $(() => {
 		$(".js-trainer_ai_button-textedit").removeClass("active");
 	});
 
+	$(".draft_describing-btn").click(function (e) {
+		// $(this).toggleClass("active");
+		// $(".draft_describing-text p").toggleClass("hide");
+		$(".draft_describing-text p").removeClass("hide");
+		$(".draft_describing-btn").addClass("active");
+	});
+
 	$(".js-trainer_ai_button-textedit").click(function (e) {
 		$(this).toggleClass("active");
 		$(".trainer_ai_textedit").toggleClass("hide");
