@@ -750,4 +750,8 @@
         width: calc(100% / 3 - 10px);
     }
 
+    .variant3 .variant_left-boxs {
+        flex-direction: column;
+    }
+
 }
